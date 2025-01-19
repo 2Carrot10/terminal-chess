@@ -1,8 +1,3 @@
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This abstract class represents a chess piece. It contains constants that many chess pieces use
 // such as diffrent directions on the chess board, and a placeholder variable for unicode symbols.

@@ -1,8 +1,3 @@
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This class a vector with two integer components. this class stores the x and y values of the
 // vector. It can also perform translations on the vector by using another vector.

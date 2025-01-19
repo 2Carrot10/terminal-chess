@@ -1,9 +1,4 @@
 import java.util.*;
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This class represents a a sliding piece. This class calculates and returns a bitboard
 // of all possible moves the piece can make based on a list of dirrections the piece can

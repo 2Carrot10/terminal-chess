@@ -1,10 +1,5 @@
 import java.util.*;
 
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This class represents a king. This class contains and returns the unicode symbol for the 
 // peice. It also calculates and returns a bitboard of all possible moves the piece can make 

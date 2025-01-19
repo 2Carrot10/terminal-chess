@@ -1,8 +1,3 @@
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This class represents a position on the chess board. This class must recive a position,
 // either in the form of a rank and file, or in algebraic notation. It can perform translations

@@ -1,8 +1,3 @@
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This class represents a a bitboard. A bitboard is a 2d field of booleans. In this context, the 
 // array is 8x8, and represents the chess board. Bitboards can be used for a variety of purposes.

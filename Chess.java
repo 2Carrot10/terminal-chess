@@ -1,11 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This class represents a chess game. It inherits from AbstractStrategyGame. Like all classes
 // that inherit from AbstractStrategyGame, this class can return the game instructions, get a

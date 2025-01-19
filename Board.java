@@ -1,8 +1,3 @@
-// Eleanor Grutz
-// 07-10-2024
-// CSE 123 
-// P0: Creative Project 2: Abstract Strategy Games
-// TA: Trien
 
 // This class represents the state board state of a chess game. It stores a board, and exposes
 // many methods to analyse the current position. This class does not keep track of the current 
