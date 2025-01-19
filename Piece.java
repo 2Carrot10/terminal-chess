@@ -1,4 +1,3 @@
-
 // Eleanor Grutz
 // 07-10-2024
 // CSE 123 
@@ -60,7 +59,7 @@ public abstract class Piece {
     public abstract Bitboard getMoveBitboard(Board board, Position position);
     
     // Behavior:
-    //   - This method completes all neccecary state changes that occur to a peice after a move.
+    //   - This method completes all necessary state changes that occur to a peice after a move.
     // Parameters:
     //   - none
     // Returns:
@@ -76,7 +75,7 @@ public abstract class Piece {
     // Parameters:
     //   - none
     // Returns:
-    //   -  isWhite: weather the peice is white. (if it is not white, it is black).
+    //   -  isWhite: weather the piece is white. (if it is not white, it is black).
     // Exceptions:
     //   - none
     public boolean getIsWhite(){

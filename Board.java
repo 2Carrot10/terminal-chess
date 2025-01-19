@@ -7,7 +7,7 @@
 // This class represents the state board state of a chess game. It stores a board, and exposes
 // many methods to analyse the current position. This class does not keep track of the current 
 // player. This class can be constructed with a specific board layout, although if a layout is not
-// specified it will default to the standerd setup.
+// specified it will default to the standard setup.
 // Pieces can be moved, although the code using this class must ensure that the move is valid
 // before hand because this class will throw an exception if the move attempted is not valid.
 public class Board {
@@ -15,7 +15,7 @@ public class Board {
     public static final String NO_STYLES = "\u001B[0m";
     public static final String RED_TEXT = "\u001B[31m";
     public static final String BLUE_TEXT = "\u001B[34m";
-    public static final String RED_BACKGROUND = "\u001B[41m";
+    public static final String BLINKING = "\u001B[5m";
 
     private Piece[][] board;
 
@@ -204,7 +204,7 @@ public class Board {
                     stringToReturn += " ";  
                 }
                 if(kingBitboard != null && kingBitboard.isPositionInBitboard(x,y)) {
-                    stringToReturn += RED_BACKGROUND;
+                    stringToReturn += BLINKING;
                 }
                 else if(attackBitboard != null && attackBitboard.isPositionInBitboard(x, y)) {
                     stringToReturn += RED_TEXT;
@@ -219,7 +219,7 @@ public class Board {
                 if(board[x][y] == null) {
                     if(attackBitboard != null && attackBitboard.isPositionInBitboard(x, y))
                     {
-                        stringToReturn += "🞬";
+                        stringToReturn += "◼";
                     }
                     else {
                         stringToReturn += "•";

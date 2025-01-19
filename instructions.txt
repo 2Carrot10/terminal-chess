@@ -28,14 +28,14 @@ While pawns are the most weak piece in the game, they are also the most common. 
 
 
 ✷✷✷✷✷ Removed moves ✷✷✷✷✷
-In this version of chess, three important moves have been removed:
+In this version of chess, many features have been removed:
 • Castling
 • Promoting
 • En Passant
-In addition, there are no draws.
+• Draws
 
 
 For more information about movement, see the diagrams below:
-• Blue squares represent the piece that is being moved.
-• Red squares represent places a peice can move to.
-•   Red highlights represent a king that is currently in check.
+• Blue squares represent the piece that is in the process of being moved.
+• Red squares represent places a piece can move to.
+• A blinking king means that it is currently in check.
