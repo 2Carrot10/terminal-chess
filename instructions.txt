@@ -1,38 +1,41 @@
-This is a game of chess. In chess, two armies meet each other on a 8x8 battle field, both with the goal of capturing (killing) the opposing king. To do this, each player must carefully maneuver their army around the board.  The game takes place in the form of moves, in which a player can move one piece of their choosing. There are 6 different types of pieces, each with their own rules. Each piece except for pawns, which obey special rules, have the ability to capture the pieces of the opponent if the set of positions they can move to intersect with the position of an oposing piece opposing piece. All pieces expect for knights can not jump over any other pieces. This means that if there is a piece between where a piece currently is and where it wants to go, it can not move there.
+This is a game of chess. In chess, two armies meet each other on a 8x8 battle field, both with the goal of capturing (killing) the opposing king. To do this, each player must carefully maneuver their army around the board.  The game takes place in the form of moves, in which a player can move one piece of their choosing. There are 6 different types of pieces, each with their own rules. Each piece except for pawns, which obey special rules, have the ability to capture the pieces of the opponent by moving onto the square of an opposing piece. All pieces expect for knights can not jump over any other pieces. This means that if there is a piece between where a piece currently is and where it wants to go, it can not move there.
 
 
-Information about board rendering: 
+✷✷✷✷✷ Information about board rendering ✷✷✷✷✷ 
 This game uses ANSI escape codes to highlight pieces and where they can move. Window's command prompt may be unable to display these colors properly. Please download and install a superior operating system such as Arch (https://archlinux.org/download/) for a better experience.
 
-The game pieces are displayed using unicode. The white pieces are counterintuitively rendered using unicode's black chess pieces and vice versa. This is done so that the characters look correct when displayed in white on a black screen.
+The game pieces are displayed using unicode. The white pieces are counterintuitively rendered using Unicode's black chess pieces and vice versa. This is done so that the characters look correct when displayed in white on a black screen.
 
-Piece movement: 
-The Rook(♜):
+
+✷✷✷✷✷ Piece movement ✷✷✷✷✷ 
+✷ The Rook(♜):
 Rooks are able to slide vertically and horizontally. Rooks can slide as far as they wish although they can not 'jump' over pieces. Rooks can capture enemy pieces by moving into them. Like all pieces, rooks can not capture pieces of the same color.
 
-The Bishop(♝): 
+✷ The Bishop(♝): 
 Bishops identical to rooks, except instead of moving orthogonally, they instead move diagonally.
 
-The Queen(♛):
+✷ The Queen(♛):
 Queens are the most powerful piece in the game. They can make any move that a rook and a bishop can make.
 
-The Knight(♞):
+✷ The Knight(♞):
 Knights move in an L shape. They move 2 spaces in one direction, and then 1 space in a perpendicular direction. Unlike all other pieces, knights can jump over other pieces.
 
-The King(♚):
+✷ The King(♚):
 The king is the most important piece of the game. Although the king can only move one space in any direction, allowing the king to be captured results in a loss. When the following move could result in one player taking the other players king if they do not make a move, the attacking player says "check!", indicating that the king is in danger. While both players attempt to capture the opposing king, kings are never officially taken off of the board. Instead, if there is a position where a player can not avoid losing their king on the next turn, they are in "checkmate", and have lost. A player is not allowed to play a move that gives their opponent the opportunity to capture their king immediately.
 
-The Pawn(♟):
+✷ The Pawn(♟):
 While pawns are the most weak piece in the game, they are also the most common. Unlike all other pieces, pawns do not move in the same direction that they attack. Pawns are only able to move forward 1 space at a time, except for their first move in which they may move forward 2 spaces. If there is an opposing piece diagonal and in front of a pawn, they may move on to the opposing piece and capture it.
 
 
+✷✷✷✷✷ Removed moves ✷✷✷✷✷
 In this version of chess, three important moves have been removed:
-- Castling
-- Promoting
-- En Passant
+• Castling
+• Promoting
+• En Passant
 In addition, there are no draws.
 
+
 For more information about movement, see the diagrams below:
-    Blue squares represent the piece that is being moved.
-    Red squares represent places a peice can move to.
-    Red highlights represent a king that is currently in check.
+• Blue squares represent the piece that is being moved.
+• Red squares represent places a peice can move to.
+•   Red highlights represent a king that is currently in check.
